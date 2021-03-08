@@ -1,0 +1,64 @@
+
+header {
+   color: #ffffff;
+   background-color: #222028;
+   background-image: url('img/ingredients-1920w.jpg');
+   background-size: cover;
+   background-blend-mode: multiply;
+}
+
+
+body {
+  font-family : georgia, serif;
+  color: #222028;
+}
+
+em {
+  font-style: normal;
+}
+
+.highlight {
+  color: #222028;
+  background-color : #ffbc48;
+  margin: 4px;
+}
+
+.section {
+    font-family : 'Fira Sans', sans-serif; 
+    text-transform: uppercase;
+}
+
+.overview {
+  color : #ffbc48;
+  background-color : #222028;
+  font-family : 'Fira Sans', sans-serif; 
+  
+}
+
+a:hover {
+color: #ffbc48;
+}
+
+blockquote {
+  border-left: 5px #ffbc48;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+  font-family : 'Fira Sans', sans-serif; 
+  color: #ffffff;
+}
+
+h2 {
+  font-family : 'Fira Sans', sans-serif; 
+  color: #222028;
+}
+  
+h3 {
+    font-family : 'Fira Sans', sans-serif;
+    color: #222028;
+  }
+  
