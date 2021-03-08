@@ -5,12 +5,10 @@ header {
    background-image: url('img/ingredients-1920w.jpg');
    background-size: cover;
    background-blend-mode: multiply;
-   padding: 1rem;
+   padding : 1rem;
 }
 
-main {
-    padding: 1rem;
-}
+
 
 body {
   font-family : georgia, serif;
@@ -62,6 +60,12 @@ blockquote {
 ul {
     list-style-type: none;
     line-height: 30px;
+    padding-inline-start: 5px;
+}
+
+.ul {
+    list-style-type: disc;
+    padding-left: 40px;
 }
 
 h1 {
