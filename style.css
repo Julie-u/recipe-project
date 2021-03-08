@@ -13,6 +13,11 @@ header {
 body {
   font-family : georgia, serif;
   color: #222028;
+  margin: 0px;
+}
+
+main {
+ margin: 1rem;
 }
 
 em {
