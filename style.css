@@ -5,8 +5,12 @@ header {
    background-image: url('img/ingredients-1920w.jpg');
    background-size: cover;
    background-blend-mode: multiply;
+   padding: 20px;
 }
 
+main {
+    padding: 10px;
+}
 
 body {
   font-family : georgia, serif;
@@ -20,7 +24,7 @@ em {
 .highlight {
   color: #222028;
   background-color : #ffbc48;
-  margin: 4px;
+  padding: 2px;
 }
 
 .section {
@@ -32,15 +36,22 @@ em {
   color : #ffbc48;
   background-color : #222028;
   font-family : 'Fira Sans', sans-serif; 
+  padding: 20px;
   
 }
 
 a:hover {
+color: #ffffff;
+}
+
+a {
 color: #ffbc48;
+text-decoration: none;
 }
 
 blockquote {
-  border-left: 5px #ffbc48;
+  border-left-color: #ffbc48;
+  border-left-width: 5px;
 }
 
 ul {
@@ -62,3 +73,9 @@ h3 {
     color: #222028;
   }
   
+
+footer {
+    color: #ffffff;
+    background-color: #222028;
+    padding: 16px;
+}  
