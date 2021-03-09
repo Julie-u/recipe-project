@@ -108,32 +108,28 @@ ul {
 .layout {
   background-color: #222028;
   display: grid;
-  grid-template-columns: 25% 55%;
+  grid-template-columns: 1fr 2fr;
 }
+
 
 .one {
-  background-color: ;
-}
-
-.two {
   color : #ffbc48;
   background-color : #222028;
   font-family : 'Fira Sans', sans-serif; 
   padding : 20px;
   line-height: 32px;
+  grid-column: 1 / span 2;
 }
 
-.three {
+.two {
   background-color: #ffffff;
 }
 
-.four {
+.three {
   background-color: #ffbc48;
+  grid-row: 2 / span 3;
 }
 
-.five {
-  background-color: #222028;
-}
 
 
 @media screen and (min-width: 400px) {
@@ -163,8 +159,3 @@ ul {
 			"sidebar midbar    .  "
 			"sidebar midbar    .  ";
 	}
-	.five {
-		grid-area: midbar;
-	}
-}
- 
