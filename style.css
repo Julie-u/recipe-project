@@ -109,6 +109,10 @@ ul {
   background-color: #222028;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "topbar topbar"
+  "sidebar   .  "
+  "sidebar   .  ";
 }
 
 
@@ -134,7 +138,6 @@ ul {
 
 @media screen and (min-width: 400px) {
 	.layout {
-		/* grid-gap: 1em; */
 		grid-template-columns: 1fr 2fr;
 		grid-template-areas: 
 			"topbar  topbar" 
@@ -142,20 +145,21 @@ ul {
 			"sidebar    .  "
 			"sidebar    .  ";
 	}
-	.one {
-		grid-area: topbar;
-	}
-	.two {
-		grid-area: sidebar;
-	}
+
 }
 
 
 @media screen and (min-width: 600px) {
 	.layout {
-		grid-template-columns: 1fr 1fr 2fr;
+		grid-template-columns: 1fr 2fr;
 		grid-template-areas: 
 			"topbar  topbar  topbar" 
 			"sidebar midbar    .  "
 			"sidebar midbar    .  ";
+	}
+	.one {
+		grid-area: topbar;
+	}
+	.three {
+		grid-area: sidebar;
 	}
