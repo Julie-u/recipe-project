@@ -15,3 +15,5 @@ I have some issues with margin collapse and of course with the all grid thing. I
 Grid looks comprehensive but as usual, it's simple when you show us but when I try it's not the same..
 
 I will continue to watch the recorded session and try to learn it better to catch up.
+
+(I add the accessibility screen into the img folder)
